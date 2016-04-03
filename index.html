@@ -8,8 +8,9 @@
 <script src="css/bootstrap.min.js"></script>
 <title>fix-tools主页</title>
 <style>
-.body{
+body{
 	margin:0;
+	padding:0;
 	}
 .container-fluid{
 	margin-right:0;
@@ -39,14 +40,15 @@
 	text-align:center;
 	background-color:#232323;
 	color:#E1E1E1;
-	font-weight:bolder;
+	font-weight:lighter;
 	font-size:0.8em;
 	padding:15px;
-	height:60px;
-	margin:0;
+	height:75px;
+	line-height:2em;
 	}
 a{
 	color:#D2D2D2;
+	text-decoration:none;
 	}
 h1{
 	color:#E3E3E3;
@@ -72,9 +74,10 @@ h2{
                 	<li role="presentation"><a>主页</a></li>
                     <li role="presentation"><a>代码查询</a></li>
                     <li role="presentation"><a>软件下载</a></li>
+                    <li role="presentation"><a>帮助文档</a></li>
                 </ul> 
         </div>
-        <h1>"Man <br />is the thought of <br />the reed"</h1>	
+        <h1><strong>"Man <br />is the thought of <br />the reed"</strong></h1><br />	
      
     <div class="col-md-4 col-xs-10 col-xs-o">
     	<div class="input-group">
@@ -85,26 +88,32 @@ h2{
   	</div><!-- /.col-lg-6 -->
     <div class="row">
     	<div class="col-md-12 col-xs-12 wenben1">
-    		<h2>我该如何查看蓝屏报错代码</h2><br />
-    		<p>通常它会显示在蓝屏画面最下方，以“*** STOP: 0x000000xx”,例如“*** STOP: 0x000000d1”.<br />通常我们只需要记下末尾两位代码（例如d1、7b等等），通过本站，您可以快速查询到故障的诱因，相应的我们会提出可行的解决方案.</p><br />
+    		<h2>我该如何查看蓝屏报错代码</h2>
+    		<p>通常它会显示在蓝屏画面最下方，以<strong>" *** STOP: 0x000000xx "</strong>的形式显示,例如<strong>" *** STOP: 0x000000d1 "</strong><br />通常我们只需要记下末尾两位代码（例如d1、7b等等），通过本站，您可以快速查询到故障的诱因，相应的我们会提出可行的解决方案</p>
     		<p><a class="btn btn-primary btn-lg" href="#" role="button">查询代码</a></p>
 		</div>	
     </div>
     <div class="row">
     	<div class="col-md-12 col-xs-12 wenben2">
-        	<h2>我的电脑打不开了，帮帮我！</h2><br />
-            <p>我们同样可以提供相应的帮助，鉴于您电脑的使用环境、故障诱因不同，我们提出不同的解决方案.</p><br />
+        	<h2>我的电脑打不开了，帮帮我！</h2>
+            <p>我们同样可以提供相应的帮助，鉴于您电脑的使用环境、故障诱因不同，我们提出不同的解决方案</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button">寻求帮助</a></p>
         </div>
 	</div>
 	<div class="row">
         <div class="col-md-12 col-xs-12 wenben1">
-        	<h2>一些更加酷炫的玩意？</h2><br />
-            <p>工欲善其事，必先利其器.<br />善于使用软件，会使你的网上体验提高许多.<br />别说话，上车！</p><br />
+        	<h2>一些更加酷炫的玩意？</h2>
+            <p>工欲善其事，必先利其器<br />善于使用软件，会使你的网上体验提高许多<br />别说话，上车！</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button">进入下载页面</a></p>
         </div>
     </div>
-    <div class="col-md-12 modal-footer">本站旨在帮助普通电脑用户快速诊断电脑故障 | 问题反馈：wang7147001@163.com</div>   
+    <div class="row">
+    <div class="col-md-12 col-xs-12 modal-footer">
+    <p>备案号：xICP备xxxxxxx号 | 版权所有：wang7147001@163.com
+    <br />问题反馈：wang7147001@163.com | <a href="#">网站日志</a> | <a href="#">友链交换</a></p>
+    </div>
+    </div>  
 </div>
+   
 </body>
 </html>

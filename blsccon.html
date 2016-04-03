@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<script src="css/jquery-1.8.3.min.js"></script>
+<script src="css/bootstrap.min.js"></script>
+<title>无标题文档</title>
+<style>
+html,body{
+	padding:0;
+	margin:0;
+	height:100%;
+	}
+.container-fluid{
+	min-height:100%;
+	}
+.modal-footer{
+	text-align:center;
+	background-color:#232323;
+	color:#E1E1E1;
+	font-weight:lighter;
+	font-size:0.8em;
+	padding:15px;
+	height:75px;
+	line-height:2em;
+	position: relative;
+	margin-top: -60px;
+	clear:both; 
+	}
+</style>
+</head>
+
+<body>
+<header>
+	<div class="row">
+    	<div class="col-md-3 col-md-offset-5 col-xs-12" role="presentation">
+          <ul class="nav nav-pills">
+          <li role="presentation" class="active"><a href="#">主页</a></li>
+          <li role="presentation"><a href="#">代码查询</a></li>
+          <li role="presentation"><a href="#">工具下载</a></li>
+          </ul>
+        </div> 
+    </div><!--导航 -->
+</header>
+<div class="container-fluid">
+	<div class="row">
+      <div class="left-nav col-md-2 col-xs-12" role="navigation">
+          <ul class="nav nav-pills nav-stacked">
+          <li role="presentation"><a>测试测试</a></li>
+          <li role="presentation"><a>测试测试</a></li>
+          <li role="presentation"><a>测试测试</a></li>
+          <li role="presentation"><a>测试测试</a></li>
+          </ul>
+      </div><!--分页导航 -->
+      <div class="right-con col-md-10 col-xs-12">
+        <ol class="breadcrumb">
+        <li><a href="#">主页</a></li>
+        <li><a href="#">代码查询</a></li>
+        <li class="active">7B</li>
+        </ol><!--路径导航 -->
+      	<h2>报错代码：0*0000007B</h2>
+      <p>系统描述：<small>STOP：0×0000007B(0×F8BAD528,0×C0000034,0×00000000,0X00000000)</small></p><!--代码名称及描述 -->
+     	<h3>诱因：</h3>
+      <p>Windows在启动过程中无法访问系统分区或启动卷.一般发生在更换主板后第一次启动.主要是因为新主板和旧主板的IDE控制器使用不同的芯片造成的.有时也可能是病毒或硬盘损伤所引起的. </p><!--诱因 -->
+     	<h3>官方文档：</h3>
+      <ol>
+      <li>引导扇区病毒通常会导致这种停止错误。使用反病毒软件的最新版本，检
+查计算机上是否存在病毒。如果找到病毒，则执行必要的步骤把它从计算机上清除
+掉。请参阅反病毒软件文档了解如何执行这些步骤. </li>
+	  <li>卸掉所有新近安装的硬件（RAM、适配器、硬盘、调制解调器等等）.</li>
+      <li>核对 Microsoft 硬件兼容性列表以确保所有的硬件和驱动程序都与
+Windows 2000 兼容.</li>	
+      </ol><!--官方文档 -->
+      	<div class="panel panel-default">
+        <div class="panel-body">
+        <h3>解决方案：</h3>
+        <p>通常我们会尝试更改BIOS的硬盘模式来解决此问题，你可以尝试进入BIOS跳至SATA选项（BOOT选项）将SATA Mode修改为对应系统的硬盘模式，[XP:改为IDE][Windows7:改为AHCI],F10保存修改并退出.</p><hr /><!--方案 -->
+        <h6><strong>怎样进入BIOS？</strong></h6>
+        <a href="#" class="btn btn-primary btn-sm active" role="button">帮助文档</a><!--帮助按钮组 -->
+        <h6><strong>怎样找到你所说的SATA Mode?没有找到IDE,AHCI选项?</strong></h6>
+        <a href="#" class="btn btn-primary btn-sm active" role="button">帮助文档</a><!--帮助按钮组 -->
+      	</div>
+	  	</div>
+      </div><!--方案文本区域 -->
+	  </div><!--右侧内容 -->
+	</div>
+</div>
+<div class="row">
+    <div class="col-md-12 col-xs-12 modal-footer">
+    <p>备案号：xICP备xxxxxxx号 | 版权所有：wang7147001@163.com
+    <br />问题反馈：wang7147001@163.com | <a href="#">网站日志</a> | <a href="#">友链交换</a></p>
+    </div>
+    </div><!--页脚 --> 
+</body>
+</html>
