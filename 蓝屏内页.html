@@ -20,13 +20,6 @@ header{
 	min-height:100%;
 	padding:20px;
 	}
-.left-nav{
-	margin:0;
-	float:left;
-	}
-.right-con{
-	float:right;
-	}
 .modal-footer{
 	text-align:center;
 	background-color:#232323;
@@ -39,6 +32,27 @@ header{
 	position: relative;
 	margin-top: -30px;
 	clear:both; 
+	}
+.jumu{
+	height:320px;
+	background:url(image/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg);
+	}
+.jumu p,h1{
+	color:#FFF;
+	}
+.jumu p{
+	line-height:22px;
+	}
+.google-tips{
+	text-align:center;
+	}
+.google-tips a{
+	font-size:12px;
+	color:#EEE;
+	text-decoration:none;
+	}
+.google-tips a:hover{
+	color:#CCC;
 	}
 </style>
 </head>
@@ -57,28 +71,28 @@ header{
         </div> 
     </div><!--导航 -->
 </header>
+<div class="row jumu">
+	<div class="row">
+	<div class="col-md-7 col-md-offset-2">
+	<h1>蓝屏报错</h1>
+    <p>此页面提供蓝屏查询，在查询过程中遇到麻烦，可以尝试调阅帮助文档</p>
+    <p>此页面蓝屏报错代码解决方案适用于 <strong>XP/WIN7</strong>;对于 <strong>WIN8/8.1/10</strong> 请尝试系统给出的解决方案</p>
+    <p>问题没有解决？你也可以尝试 &nbsp;<strong>Baidu/Google</strong>&nbsp; 一下</p>
+    </div>
+    </div><br /><br /><br />
+    <div class="row">
+    <div class="col-md-6 col-md-offset-3 col-xs-12 input-group">
+    <input type="text" class="form-control" placeholder="输入内容" aria-describedby="basic-addon2">
+    <span class="input-group-addon" id="basic-addon2">即刻搜索</span>
+    </div>
+    </div><!--搜索框 -->
+    <div  class="google-tips">
+    <h3><a href="#">Google 搜索</a></h3>
+    </div><!--下方谷歌搜索 -->
+</div><!--巨幕 -->
 <div class="container-fluid">
 	<div class="row">
-      <div class="left-nav col-md-2 col-xs-12" role="navigation">
-          <ul class="nav nav-pills nav-stacked">
-          <li role="presentation"><a href="#">返回主页</a></li>
-          <li role="presentation" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">代码查询<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-          <li role="presentation"><a href="#">蓝屏代码</a></li>
-          <li role="presentation"><a href="#">诊断卡代码</a></li>
-          </ul>
-          </li>
-          <li role="presentation"><a href="#">工具下载</a></li>
-          <li role="presentation"><a href="#">帮助文档</a></li>
-          <li role="presentation"><a href="#">留言板&公告栏</a></li>
-          </ul>
-      </div><!--分页导航 -->
-      <div class="right-con col-md-10 col-xs-12">
-        <ol class="breadcrumb">
-        <li><a href="#">主页</a></li>
-        <li><a href="#">代码查询</a></li>
-        <li class="active">7B</li>
-        </ol><!--路径导航 -->
+      <div class="right-con col-md-10 col-md-offset-1 col-xs-12">
       	<h2>报错代码：0*0000007B</h2>
       <p>系统描述：<small>STOP：0×0000007B(0×F8BAD528,0×C0000034,0×00000000,0X00000000)</small></p><!--代码名称及描述 -->
      	<h3>诱因：</h3>
