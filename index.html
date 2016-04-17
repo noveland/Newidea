@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 <link href="css/bootstrap.min.css" rel="stylesheet" />
-<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="css/jquery-2.2.3.min.js"></script>
 <script src="css/bootstrap.min.js"></script>
 <title>fix-tools主页</title>
 <style>
@@ -50,6 +50,13 @@ a{
 	color:#D2D2D2;
 	text-decoration:none;
 	}
+.modal-footer a{
+	color:#CCC;
+	text-decoration:none;	
+	}
+.modal-footer a:hover{
+	color:#336699;
+	}	
 h1{
 	color:#E3E3E3;
 	margin-left:170px;
@@ -63,26 +70,31 @@ h2{
 .input-group{
 	margin-left:150px;
 	}
+.input-group a{
+	color:#666;
+	text-decoration:none;
+	}
 </style>
 </head>
 
 <body>
 <div class="container-fluid">
 	<div class="row jumu">
-    	<div class="col-md-4 col-xs-12 col-md-offset-5 role="navigation"">  	
+    	<div class="col-md-5 col-xs-12 col-md-offset-4 role="navigation"">  	
             	<ul class="nav nav-pills">
-                	<li role="presentation"><a>主页</a></li>
-                    <li role="presentation"><a>代码查询</a></li>
-                    <li role="presentation"><a>软件下载</a></li>
-                    <li role="presentation"><a>帮助文档</a></li>
+                	<li role="presentation"><a href="#">主页</a></li>
+                    <li role="presentation"><a href="#">代码查询</a></li>
+                    <li role="presentation"><a href="#">软件下载</a></li>
+                    <li role="presentation"><a href="#">帮助文档</a></li>
+                    <li role="presentation"><a href="#">留言板</a></li>
                 </ul> 
         </div>
         <h1><strong>"Man <br />is the thought of <br />the reed"</strong></h1><br />	
      
-    <div class="col-md-4 col-xs-10 col-xs-o">
+    <div class="col-md-4 col-xs-10">
     	<div class="input-group">
   		<input type="text" class="form-control" placeholder="输入蓝屏代码" aria-describedby="basic-addon2">
-  		<span class="input-group-addon" id="basic-addon2">即刻搜索</span>
+  		<span class="input-group-addon" id="basic-addon2 "><a href="#">即刻搜索</a></span>
 		</div>
 	</div>
   	</div><!-- /.col-lg-6 -->
@@ -104,7 +116,7 @@ h2{
         <div class="col-md-12 col-xs-12 wenben1">
         	<h2>一些更加酷炫的玩意？</h2>
             <p>工欲善其事，必先利其器<br />善于使用软件，会使你的网上体验提高许多<br />别说话，上车！</p>
-            <p><a class="btn btn-primary btn-lg" href="#" role="button">进入下载页面</a></p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">进入下载</a></p>
         </div>
     </div>
     <div class="row">

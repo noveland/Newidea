@@ -33,9 +33,16 @@ header{
 	margin-top: -30px;
 	clear:both; 
 	}
+.modal-footer a{
+	color:#CCC;
+	text-decoration:none;	
+	}
+.modal-footer a:hover{
+	color:#336699;
+	}	
 .jumu{
 	height:320px;
-	background:url(image/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg);
+	background:#347ab6;
 	}
 .jumu p,h1{
 	color:#FFF;
@@ -94,18 +101,18 @@ header{
 	<div class="row">
       <div class="right-con col-md-10 col-md-offset-1 col-xs-12">
       	<h2>报错代码：0*0000007B</h2>
-      <p>系统描述：<small>STOP：0×0000007B(0×F8BAD528,0×C0000034,0×00000000,0X00000000)</small></p><!--代码名称及描述 -->
+      	<p>系统描述：<small>STOP：0×0000007B(0×F8BAD528,0×C0000034,0×00000000,0X00000000)</small></p><!--代码名称及描述 -->
      	<h3>诱因：</h3>
-      <p>Windows在启动过程中无法访问系统分区或启动卷.一般发生在更换主板后第一次启动.主要是因为新主板和旧主板的IDE控制器使用不同的芯片造成的.有时也可能是病毒或硬盘损伤所引起的. </p><!--诱因 -->
+      	<p>Windows在启动过程中无法访问系统分区或启动卷.一般发生在更换主板后第一次启动.主要是因为新主板和旧主板的IDE控制器使用不同的芯片造成的.有时也可能是病毒或硬盘损伤所引起的. </p><!--诱因 -->
      	<h3>官方文档：</h3>
-      <ol>
-      <li>引导扇区病毒通常会导致这种停止错误。使用反病毒软件的最新版本，检
+      	<ol>
+      		<li>引导扇区病毒通常会导致这种停止错误。使用反病毒软件的最新版本，检
 查计算机上是否存在病毒。如果找到病毒，则执行必要的步骤把它从计算机上清除
 掉。请参阅反病毒软件文档了解如何执行这些步骤. </li>
-	  <li>卸掉所有新近安装的硬件（RAM、适配器、硬盘、调制解调器等等）.</li>
-      <li>核对 Microsoft 硬件兼容性列表以确保所有的硬件和驱动程序都与
+	  		<li>卸掉所有新近安装的硬件（RAM、适配器、硬盘、调制解调器等等）.</li>
+      		<li>核对 Microsoft 硬件兼容性列表以确保所有的硬件和驱动程序都与
 Windows 2000 兼容.</li>	
-      </ol><!--官方文档 -->
+      	</ol><!--官方文档 -->
       	<div class="panel panel-default">
         <div class="panel-body">
         <h3>解决方案：</h3>
@@ -117,8 +124,7 @@ Windows 2000 兼容.</li>
       	</div>
 	  	</div>
       </div><!--方案文本区域 -->
-	  </div><!--右侧内容 -->
-	</div>
+	</div><!--右侧内容 -->
 </div>
 <div class="row">
     <div class="col-md-12 col-xs-12 modal-footer">
