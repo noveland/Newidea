@@ -6,16 +6,20 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <script src="css/jquery-2.2.3.min.js" type="text/javascript"></script>
 <script src="css/bootstrap.min.js" type="text/javascript"></script>
-<title>帮助文档</title>
-<style>
-*{
+<title>无标题文档</title>
+<style type="text/css">
+html,body{
 	padding:0;
 	margin:0;
 	font-family:"微软雅黑";
 	}
+.top-header{
+	border-bottom:#DDD solid 1px;
+	margin:0;
+	}
 .container-fluid{
 	min-height:100%;
-	padding-bottom:20px;
+	padding:20px;
 	}
 .footer{
 	text-align:center;
@@ -34,14 +38,15 @@
 .footer a:hover{
 	color:#336699;
 	}	
-p{
-	word-wrap: break-word;
-	}
 .jumu{
 	height:auto;
 	background:#347ab6;
 	clear:both;
 	padding-bottom:25px;
+	}
+.gengai,.gengai-seacher{
+	margin:0;
+	pading:0;
 	}
 .jumu p,h1{
 	color:#FFF;
@@ -60,18 +65,20 @@ p{
 .google-tips a:hover{
 	color:#CCC;
 	}
-.list-group{
-	margin-top:15px;
-	}
 .nav-pills{
-	font-size:0.8em;
+	font-size:1em;
+	}
+.right-con p{
+	word-wrap: break-word;
+	}
+.panel{
+	margin-top:30px;
 	}
 </style>
 </head>
 
 <body>
-<header>
-	<div class="row">
+<div class="row top-header">
     	<div class="col-md-4 col-md-offset-4 col-xs-12" role="presentation">
           <ul class="nav nav-pills">
           <li role="presentation"><a href="index.html">主页</a></li>
@@ -80,77 +87,47 @@ p{
           <li role="presentation"><a href="帮助文档.html">帮助文档</a></li>
           </ul>
         </div> 
-    </div>
-</header><!--导航 -->
-<div class="container-fluid">
-	<div class="row jumu">
-	<div class="row">
-	<div class="col-md-7 col-md-offset-2 col-xs-10 col-xs-offset-1">
-	<h1>帮助文档</h1>
-    <p>此页面提供本站所提及相关帮助文档，调阅这些文档可以帮助你更好的解决当前的问题</p>
-    <p>文档绝大部分来自于互联网，仅供参考；如果你有好的建议或发现疏漏错误之类问题，可以尝试向我反馈，感激不尽</p>
+</div><!--导航 -->
+<div class="jumu">
+	<div class="row gengai">
+	<div class="col-md-7 col-md-offset-2 col-xs-12">
+	<h1>蓝屏报错</h1>
+    <p>此页面提供蓝屏查询，在查询过程中遇到麻烦，可以尝试调阅帮助文档</p>
+    <p>此页面蓝屏报错代码解决方案适用于 <strong>XP/WIN7</strong>;对于 <strong>WIN8/8.1/10</strong> 请尝试系统给出的解决方案</p>
     <p>问题没有解决？你也可以尝试 &nbsp;<strong>Baidu/Google</strong>&nbsp; 一下</p>
     </div>
-    </div>
-    <br /><br /><br />
+    </div><br /><br /><br />
     <div class="row">
     	<div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 input-group">
     	<input type="text" class="form-control" placeholder="输入内容" aria-describedby="basic-addon2"><!--输入输入框 -->
     <span class="input-group-addon" id="basic-addon2">故障搜索</span><!--按钮 --><!--蓝屏搜索 -->
     	</div>
-    </div><!--搜索框 -->
-    <div class="google-tips">
+    	</div><!--搜索框 -->
+    	<div class="google-tips">
     	<h3><a href="www.google.cn">Google 搜索</a></h3>
     	</div><!--下方谷歌搜索 -->
 </div><!--巨幕 -->
+<div class="container-fluid">
 	<div class="row">
-    <div class="col-md-8 col-md-offset-2">
-	<div class="list-group packages">
-    <a href="#" class="list-group-item package" target="_blank">
-    <h4 class="list-group-item-heading">
-    如何进入BIOS
-    </h4>
-    <p class="list-group-item-text">
-    测试测试测试测试测试测试测试测试测试测试测试测试
-    </p>
-    </a><!--文档1 -->
-    <a href="#" class="list-group-item package" target="_blank">
-    <h4 class="list-group-item-heading">
-    如何进入BIOS
-    </h4>
-    <p class="list-group-item-text">
-    测试测试测试测试测试测试测试测试测试测试测试测试
-    </p>
-    </a><!--文档2 -->
-    <a href="#" class="list-group-item package" target="_blank">
-    <h4 class="list-group-item-heading">
-    如何进入BIOS
-    </h4>
-    <p class="list-group-item-text">
-    测试测试测试测试测试测试测试测试测试测试测试测试
-    </p>
-    </a><!--文档3 -->
-    <a href="#" class="list-group-item package" target="_blank">
-    <h4 class="list-group-item-heading">
-    如何进入BIOS
-    </h4>
-    <p class="list-group-item-text">
-    测试测试测试测试测试测试测试测试测试测试测试测试
-    </p>
-    </a><!--文档4 -->
-    <a href="#" class="list-group-item package" target="_blank">
-    <h4 class="list-group-item-heading">
-    如何进入BIOS
-    </h4>
-    <p class="list-group-item-text">
-    测试测试测试测试测试测试测试测试测试测试测试测试
-    </p>
-    </a><!--文档5 -->
-    </div>
-    </div>
-    </div><!--文档主体 -->
+      <div class="right-con col-md-10 col-md-offset-1 col-xs-12">
+      	<h2>报错代码：0*0000007B</h2>
+      	<p>系统描述：<small>STOP：0×0000007B(0×F8BAD528,0×C0000034,0×00000000,0X00000000)</small></p><!--代码名称及描述 -->
+     	<h3>诱因：</h3>
+      	<p>Windows在启动过程中无法访问系统分区或启动卷.一般发生在更换主板后第一次启动.主要是因为新主板和旧主板的IDE控制器使用不同的芯片造成的.有时也可能是病毒或硬盘损伤所引起的. </p><!--诱因 -->
+      	<div class="panel panel-default">
+        <div class="panel-body">
+        <h3>解决方案：</h3>
+        <p>通常我们会尝试更改BIOS的硬盘模式来解决此问题，你可以尝试进入BIOS跳至SATA选项（BOOT选项）将SATA Mode修改为对应系统的硬盘模式，[XP:改为IDE][Windows7:改为AHCI],F10保存修改并退出.</p><hr /><!--方案 -->
+        <h6><strong>怎样进入BIOS？</strong></h6>
+        <a href="#" class="btn btn-primary btn-sm active" role="button">帮助文档</a><!--帮助按钮组 -->
+        <h6><strong>怎样找到你所说的SATA Mode?没有找到IDE,AHCI选项?</strong></h6>
+        <a href="#" class="btn btn-primary btn-sm active" role="button">帮助文档</a><!--帮助按钮组 -->
+      	</div>
+	  	</div>
+      </div><!--方案文本区域 -->
+	</div><!--右侧内容 -->
 </div>
-	<div class="footer">
+    <div class="footer">
     <p>备案号：xICP备xxxxxxx号 | 版权所有：wang7147001@163.com
     <br />问题反馈：wang7147001@163.com | <a href="#">网站日志</a> | <a href="#">友链交换</a></p>
     </div><!--页脚 --> 

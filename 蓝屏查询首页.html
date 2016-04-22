@@ -14,6 +14,7 @@
 	}
 html,body{
 	height:100%;
+	font-family:"微软雅黑";
 	}
 .container-fluid{
 	height:100%;
@@ -36,7 +37,7 @@ p{
 	}
 .jumu{
 	height:auto;
-	background:url(image/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg);
+	background:#347ab6;
 	margin-bottom:15px;
 	margin-left:0;
 	margin-right:0;
@@ -75,10 +76,12 @@ p{
 	}	
 .lp-view,.lp-usage{
 	text-align:center;
-	padding:70px 15px 95px 15px;
+	padding:60px 15px 75px 15px;
+	line-height:180%;
 	}
 .lp-usage{
 	background:#F4F4F4;
+	line-height:180%;
 	}
 .nav-pills{
 	font-size:1em;
@@ -89,7 +92,9 @@ p{
 	}
 .lp-img1{
 	background:url(image/Win_AppsStoreBG2_1920x580_EN_US.jpg);
-	height:420px;
+	height:350px;
+	padding-top:55px;
+	line-height:180%;
 	}
 </style>
 </head>
@@ -110,17 +115,17 @@ p{
 	<div class="jumu">
 		<div class="allview row">
 		<div class="col-md-7 col-md-offset-2 col-xs-9 col-xs-offset-1">
-	<h1>蓝屏代码查询</h1>
-    <p>此页面提供蓝屏代码查询，使用前请详细阅读了解相关知识，以帮助你更好的解决问题</p>
-    <p>文档绝大部分来自于互联网，仅供参考；如果你有好的建议或发现疏漏错误，可以尝试向我反馈</p>
-    <p>问题没有解决？你也可以尝试 &nbsp;<strong>Baidu/Google</strong>&nbsp; 一下</p>
+        <h1>蓝屏代码查询</h1>
+        <p>此页面提供蓝屏代码查询，使用前请详细阅读了解相关知识，以帮助你更好的解决问题</p>
+        <p>文档绝大部分来自于互联网，仅供参考；如果你有好的建议或发现疏漏错误，可以尝试向我反馈</p>
+        <p>问题没有解决？你也可以尝试 &nbsp;<strong>Baidu/Google</strong>&nbsp; 一下</p>
     </div>
     	</div><!--概览 -->
     	<br /><br /><br />
    		<div class="row">
-    	<div class="col-md-6 col-md-offset-3 col-xs-8 col-xs-offset-2 input-group">
+    	<div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 input-group">
     	<input type="text" class="form-control" placeholder="输入内容" aria-describedby="basic-addon2"><!--输入输入框 -->
-    <span class="input-group-addon" id="basic-addon2">即刻搜索</span><!--按钮 --><!--蓝屏搜索 -->
+    <span class="input-group-addon" id="basic-addon2">故障搜索</span><!--按钮 --><!--蓝屏搜索 -->
     	</div>
     	</div><!--搜索框 -->
     	<div class="google-tips">
@@ -134,13 +139,19 @@ p{
         </div>
 	</div><!--蓝屏意义 -->
     <div class="row lp-img1">
-        <div class="col-md-12">
+        <div class="col-md-4 col-md-offset-1 col-xs-10 col-xs-offset-1">
+        <h3>如何查看故障代码</h3>
+        <p>通常它会显示在蓝屏画面最下方，以<strong>" *** STOP: 0x000000xx "</strong>的形式显示,例如<strong>" *** STOP: 0x000000d1 "</strong><br />通常我们只需要记下末尾两位代码（例如d1、7b等等），通过本站，您可以快速查询到故障的诱因，相应的我们会提出可行的解决方案</p>
         </div>
     </div><!--长条图片1 -->   
     <div class="row lp-usage">
     	<div class="col-md-12">
-        <h3>如何查看</h3>
-        <p>通常它会显示在蓝屏画面最下方，以<strong>" *** STOP: 0x000000xx "</strong>的形式显示,例如<strong>" *** STOP: 0x000000d1 "</strong><br />通常我们只需要记下末尾两位代码（例如d1、7b等等），通过本站，您可以快速查询到故障的诱因，相应的我们会提出可行的解决方案</p>
+        <h3>常见故障代码</h3>
+        <p>下方列举了一些出现频率较高的蓝屏故障代码<br />你可以通过点击相对应条目来获取解决方案<br /><strong>注意，下方仅罗列出部分故障代码，如果未能寻找到你所需要的代码，你依然可以通过最上方的搜索来查找</strong></p>
+        <div class="alert alert-danger col-md-8 col-md-offset-2" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <p>下方条目内容相对精简，适合具有电脑软硬件相关知识人员查阅，如果你需要详细内容，请通过页面上方搜索进行查阅</p>
+        </div>
         </div>
 	</div><!--蓝屏查看及检阅 -->
     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -168,13 +179,13 @@ p{
     <div class="panel-heading" role="tab" id="headingTwo">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
+          #2
         </a>
       </h4>
     </div>
     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        ...
       </div>
     </div>
   </div>
@@ -186,13 +197,13 @@ p{
     <div class="panel-heading" role="tab" id="headingThree">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Collapsible Group Item #3
+          #3
         </a>
       </h4>
     </div>
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+       ...
       </div>
     </div>
   </div>
