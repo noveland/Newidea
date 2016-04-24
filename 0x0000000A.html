@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <script src="css/jquery-2.2.3.min.js" type="text/javascript"></script>
 <script src="css/bootstrap.min.js" type="text/javascript"></script>
-<title>无标题文档</title>
+<title>0x0000000A</title>
 <style type="text/css">
 html,body{
 	padding:0;
@@ -66,7 +66,7 @@ html,body{
 	color:#CCC;
 	}
 .nav-pills{
-	font-size:0.8em;
+	font-size:1em;
 	}
 .right-con p{
 	word-wrap: break-word;
@@ -110,14 +110,21 @@ html,body{
 <div class="container-fluid">
 	<div class="row">
       <div class="right-con col-md-10 col-md-offset-1 col-xs-12">
-      	<h2>报错代码：0*0000007B</h2>
-      	<p>系统描述：<small>STOP：0×0000007B(0×F8BAD528,0×C0000034,0×00000000,0X00000000)</small></p><!--代码名称及描述 -->
+      	<h2>报错代码：0x0000000A</h2>
+      	<p>错误名：<small>IRQL_NOT_LESS_OR_EQUAL</small></p><!--代码名称及描述 -->
      	<h3>诱因：</h3>
-      	<p>Windows在启动过程中无法访问系统分区或启动卷.一般发生在更换主板后第一次启动.主要是因为新主板和旧主板的IDE控制器使用不同的芯片造成的.有时也可能是病毒或硬盘损伤所引起的. </p><!--诱因 -->
+      	<p>主要有问题的驱动程序、有缺陷或不兼容的硬件与软件造成的. 从技术角度讲. 表明在内核模式中存在以太高的进程内部请求级别(IRQL)访问其没有权限访问的内存地址</p><!--诱因 -->
       	<div class="panel panel-default">
         <div class="panel-body">
         <h3>解决方案：</h3>
-        <p>通常我们会尝试更改BIOS的硬盘模式来解决此问题，你可以尝试进入BIOS跳至SATA选项（BOOT选项）将SATA Mode修改为对应系统的硬盘模式，[XP:改为IDE][Windows7:改为AHCI],F10保存修改并退出.</p><hr /><!--方案 -->
+        <p>
+        	<ol>
+            <li>检查新硬件是否插牢,尝试去除或更换该硬件，看电脑能否正常运行</li>
+            <li>检查驱动是否正确安装，尝试更新或回退到能够正常开机的版本</li>
+            <li>上网查询驱动、硬件的兼容性</li>
+        	</ol>
+        
+        </p><hr /><!--方案 -->
         <h6><strong>怎样进入BIOS？</strong></h6>
         <a href="#" class="btn btn-primary btn-sm active" role="button">帮助文档</a><!--帮助按钮组 -->
         <h6><strong>怎样找到你所说的SATA Mode?没有找到IDE,AHCI选项?</strong></h6>

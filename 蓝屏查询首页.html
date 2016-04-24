@@ -152,22 +152,20 @@ p{
         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <p>下方条目内容相对精简，适合具有电脑软硬件相关知识人员查阅，如果你需要详细内容，请通过页面上方搜索进行查阅</p>
         </div>
-        </div>
-	</div><!--蓝屏查看及检阅 -->
-    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
     <div class="row">
     <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
   	<div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
       <h4 class="panel-title">
         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          step:xxxx
+        0x0000007B
         </a>
       </h4>
     </div>
     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
-        ....
+       硬盘模式错误，尝试进入BIOS修改对应的SATA Mode
       </div><!--详文 -->
     </div>
   	</div>
@@ -179,13 +177,13 @@ p{
     <div class="panel-heading" role="tab" id="headingTwo">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          #2
+          0x000000CE
         </a>
       </h4>
     </div>
     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
       <div class="panel-body">
-        ...
+       通常是由有问题的驱动程序或系统服务造成的
       </div>
     </div>
   </div>
@@ -197,19 +195,58 @@ p{
     <div class="panel-heading" role="tab" id="headingThree">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          #3
+          0x000000ED
         </a>
       </h4>
     </div>
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
-       ...
+       一般是由于磁盘存在错误导致的, 有时也建议检查硬盘连线是否接触不良
       </div>
     </div>
   </div>
   </div>
   </div><!--掠影3 -->
-	</div><!--代码掠影 --> 
+  	<div class="row">
+    <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          0x0000000A
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+       主要是由问题的驱动程序、有缺陷或不兼容的硬件与软件造成的
+      </div>
+    </div>
+  </div>
+  </div>
+  </div><!--4 -->
+  	<div class="row">
+    <div class="col-md-8 col-md-offset-2 col-xs-8 col-xs-offset-2">
+    <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          0x0000001A
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+       一般是新安装的硬件、内存本身有问题等
+      </div>
+    </div>
+  </div>
+  </div>
+  </div><!--5-->
+  
+	</div><!--代码掠影 -->
+        </div>
+	</div><!--蓝屏查看及检阅 -->
 	<div class="row">
     <div class="col-md-12 modal-footer">
     <p>备案号：xICP备xxxxxxx号 | 版权所有：wang7147001@163.com
